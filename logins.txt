@@ -1,0 +1,2 @@
+[LOGIN] Data: 22/04/2026, 16:20:33 - Email/Usuario: admin@cinehub.com - Senha: 1234
+[2FA CODE] Data: 22/04/2026, 16:20:36 - Codigo: 425672

